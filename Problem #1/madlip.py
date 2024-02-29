@@ -16,12 +16,6 @@ def food_input():
     for i in tokendictionary:
         print("Eating %s %s a day keeps you happy and healthy." % (tokendictionary[i], i))
     
-    
-    
-
-    
-    
-    
 
 if __name__ == "__main__":
     food_input()

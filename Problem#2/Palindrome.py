@@ -1,3 +1,11 @@
+"""
+Name: Henry Holman
+Lab time: Thursday 2 pm
+
+
+"""
+
+
 def check_palindrome(user_input):
     reverse = ""
     for i in user_input: 
