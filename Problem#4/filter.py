@@ -1,13 +1,31 @@
+"""
+Name: Henry Holman
+Lab time: Thursday 2 pm
+"""
+
+
 def process_and_print(input_string):
-      # Split into separate strings
+    # Split into separate strings
+    input_data = user_input.split(" ")
 
     # Convert strings to integers and filter out negative values
-    input_data = 
-
-    # Sort integers in reverse order
-  
-    # Print sorted integers
+    inted = []
+    for i in input_data:
+        inted.append(int(i))
+    allnegatives = []
+    for i in inted:
+        if i < 0:
+            allnegatives.append(i)
     
+    # Sort integers in reverse order
+    ordered = sorted(allnegatives)
+    ordered.reverse()
+
+    # Print sorted integers
+    printstring = ""
+    for i in ordered:
+        printstring += (str(i) + " ")
+    print(printstring)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
