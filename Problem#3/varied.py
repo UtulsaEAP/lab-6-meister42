@@ -6,7 +6,7 @@ Lab time: Thursday 2 pm
 import statistics
 def process_input(input_string):
     # Split into separate strings
-    stringed = user_input.split(" ")
+    stringed = input_string.split(" ")
     
     # Convert strings to floats
     floated = []

@@ -12,14 +12,10 @@ def check_palindrome(user_input):
         reverse = i + reverse
 
     if reverse == user_input:
-        return True
+        print("palindrome: " + str(user_input))
     else:
-        return False
+        print("not a palindrome: " + str(user_input))
     
 if __name__ == "__main__":
     user_input = input()
     check_palindrome(user_input)
-    if check_palindrome(user_input) == True:
-        print("palindrome: " + str(user_input))
-    else:
-        print("not a palindrome: " + str(user_input))
