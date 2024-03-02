@@ -1,4 +1,15 @@
 def in_order(nums):
+    check = []
+    for i in range(0, len(nums) - 1):
+        if nums[i] < nums[i+1]:
+            check.append(True)
+        else:
+            check.append(False)
+    if False in check:
+        return False
+    else:
+        return True
+
     # Type your code here.
     
 if __name__ == '__main__':
