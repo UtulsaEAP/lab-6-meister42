@@ -24,7 +24,7 @@ def process_and_print(input_string):
     printstring = ""
     for i in ordered:
         printstring += (str(i) + " ")
-    print(printstring)
+    print(printstring, end = "")
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
