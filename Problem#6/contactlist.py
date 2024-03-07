@@ -4,7 +4,7 @@ def process_user_contacts(user_input):
     for i in range(0, len(user_contacts)):
         entry = (user_contacts[i]).split(",")
         tokens[entry[0]] = entry[1]
-    # Put word pairs into a dictionary
+    # Put word pairs into a dict
     
     # Get contact name from input, output contact's phone number
     contact_name = input("Enter the contact name: ")
