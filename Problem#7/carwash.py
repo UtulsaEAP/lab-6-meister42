@@ -19,7 +19,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     if service_choice2 != "-":
         print(f"{service_choice2} - ${services[service_choice2]}")
     print(f"-----")
-    print(f"Total price: ${total}")
+    print(f"Total price: ${total}") 
     
 if __name__ == '__main__':
     # Get user input for service choices
